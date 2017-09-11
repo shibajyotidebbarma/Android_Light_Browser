@@ -19,7 +19,7 @@
 
     <EditText
         android:layout_weight="0.90"
-        android:id="@+id/textView_url"
+        android:id="@+id/editText_url"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -42,6 +42,11 @@
 
 
     </WebView>
+
+   <ProgressBar
+       android:id="@+id/progress_bar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
 
 
     <LinearLayout
